@@ -8,9 +8,9 @@
 []
 
 [Problem]
-    type          = FEProblem  # This is the "normal" type of Finite Element Problem in MOOSE
-    coord_type    = RZ         # Axisymmetric RZ
-    rz_coord_axis = X          # Which axis the symmetry is around
+    type           = FEProblem # This is the "normal" type of Finite Element Problem in MOOSE
+    Mesh/coord_type= RZ        # Axisymmetric RZ
+    rz_coord_axis  = X         # Which axis the symmetry is around
 []
 
 [Variables]
