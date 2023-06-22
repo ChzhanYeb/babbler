@@ -1,6 +1,6 @@
 #include "DarcyPressure.h"
 
-registerMooseObject("BabblerApp", DarcyPressure);
+registerMooseObject("babblerApp", DarcyPressure);
 
 InputParameters
 DarcyPressure::validParams()
