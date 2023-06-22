@@ -20,10 +20,10 @@
 []
 
 [Kernels]
-    [diffusion]
-      type     = ADDiffusion   # Laplacian operator
-      variable = pressure      # Operate on the "pressure" variable from above
-    []
+  [diffusion]
+    type     = DarcyPressure # Zero-gravity, divergence-free form of Darcy's law
+    variable = pressure      # Operate on the "pressure" variable from above
+  []
 []
 
 [BCs]
