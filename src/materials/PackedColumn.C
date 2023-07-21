@@ -1,6 +1,6 @@
 #include "PackedColumn.h"
 
-registerMooseObject("BabblerApp", PackedColumn);
+registerMooseObject("babblerApp", PackedColumn);
 
 InputParameters
 PackedColumn::validParams()
